@@ -12,6 +12,12 @@ file.
 
     theme: 'obelisk-ex/skelington
 
+The next time that you run `$ mix obelisk build`, Obelisk will pull down the
+theme and install it for you.
+
+If you'd like to update the theme to the latest version, simply delete
+`./themes/skelington` and run `$ mix obelisk build` again.
+
 ## Example
 
 ![Example Screenshot](example.png)
