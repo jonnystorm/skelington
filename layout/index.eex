@@ -8,7 +8,7 @@
         </a>
       </h3>
       <div class="post-date">
-        #{post.frontmatter.date}
+        #{post.frontmatter.created}
       </div>
       #{post.frontmatter.description}
     </div>

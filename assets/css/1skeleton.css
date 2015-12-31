@@ -125,7 +125,11 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #939393;
+  background-color: #002930; }
+.header {
+  background-color: #002228;
+  margin-bottom: 2rem; }
 
 
 /* Typography
@@ -158,9 +162,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a { 
-  color: #1EAEDB; }
+  color: #aa6d39;}
 a:hover { 
   color: #0FA0CE; }
+.header a {
+  color: #939393; }
 
 
 /* Buttons 

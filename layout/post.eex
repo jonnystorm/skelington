@@ -1,6 +1,9 @@
 <div id="post">
-  <h2>
+  <h3 class="post-title">
     <a href="<%= @filename %>"><%= @frontmatter.title %></a>
-  </h2>
+  </h3>
+  <div class="post-date">
+    <%= @frontmatter.created %>
+  </div><br />
   <%= @content %>
 </div>

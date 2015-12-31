@@ -7,13 +7,16 @@
     <link href="http://fonts.googleapis.com/css?family=Raleway" rel='stylesheet' type='text/css' />
     <%= @css %>
     <%= @js %>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   </head>
 
   <body>
     <div class="header">
       <div class="container">
         <div class="six columns alpha">
-          <h1><%= Obelisk.Config.config.name %></h1>
+          <h1>
+            <a href="/"><%= Obelisk.Config.config.name %></a>
+          </h1>
           <h2><%= Obelisk.Config.config.description %></h2>
         </div>
         <div class="six columns omega">
